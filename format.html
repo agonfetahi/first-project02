@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <form  align="center">    
+            <fieldset>
+                <legend><h1>Log in</h1></legend>
+            <label>Email * </label>  
+            <br> 
+            <input type="email" placeholder="Email" name="email" required> 
+            <br> 
+            <label>Paswordi * </label>                <br>   
+            <input type="password" placeholder="Paswordi" name="password" required minlength="5" maxlength="10">  
+            <br>
+            <br>
+            <button type="submit" style="width:100px ;">Hyr</button>  
+            <button type="reset"> Anulo</button> 
+            <br>
+            <input type="checkbox" checked="checked">Remember  
+             <br>
+                Forgot <a href="#"> password? </a>   
+            </fieldset>
+        </form>
+            
+               
+        
+                  <form align="center">
+                    <fieldset>
+                    <legend><h1>Bio</h1></legend>
+                  
+<input type="image" src="s1.jpg" style="width:100px" height="100";>
+         <br>
+         <button type="button" style="color:blue ; border: none;" >Chang profil photo</button>
+        <br>
+        <label>Emri *</label>
+        <br>
+        <input type="text" name="name"  placeholder=" Emrin..." required />
+        <br>
+        <label>Emri Pordoruesit *</label>
+        <br>                         
+        <input type="text" name="Username"  placeholder="Emri Pordoruesit..."required/>
+        <br>                          
+        <label>Headline</label>
+        <br>
+        <input type="text" name="headline" />
+        <br>
+        <label>Koment</label>
+         <br>
+        <textarea rows="5" placeholder="Shkruaj diqka rreth teje"></textarea>
+         <br>
+         <button >Submit</button>
+         <button type="reset">Reset</button>
+                         
+             </fieldset>
+ </form>
+ <form align="center">
+    <fieldset>
+        <legend><h1>About Me</h1></legend>
+        <label>Emri * </label>
+        <br>
+        <input type="text" name="text" placeholder="Emri"/>
+        <br>
+        <label>Mbiemri *</label>
+        <br>
+        <input type="text" name="text" placeholder="Mbiemri"/>
+        <br>            
+        <label>Gender</label>
+        <br>        
+        <input type="radio" name="gender" value="Male" id="Male"
+        <label for="Male">Male</label>
+        
+        <input type="radio" name="gender" value="Female" id="Female"
+        <label for="Female">Female</label>
+        
+        <input type="radio" name="gender" value="Alien" id="Alien"
+        <label for="Male">Alien</label>
+        <br>
+        <label>Address *</label>
+        <br>
+        <input type="text" name="text" placeholder="Address"/>
+        <br>
+        <label>Date of birthday</label>
+        <br>
+        <input type="date" data-date-inline-picker="true" />    
+        <br>  
+        <label>Nr.Tel *</label>
+        <br>
+        <input type="tel" placeholder="Nr.tel"required pattern="\d{9}" value="+383"/>
+        <br>
+        <label for="Categories">Car Brand:</label>
+        <select name="Categories" id="Categories">
+            <option value="">BMW</option>
+            <option value="">Audi</option>
+            <option value="">Mercedes</option>
+        </select>
+    </fieldset>
+ </form>
+
+                
+        
+</body>
+</html>
