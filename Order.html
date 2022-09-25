@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body  style="background-color:rgb(241, 214, 171) ;">
+    
+</form>
+<form align="center">
+   <fieldset>
+       <legend><h1>Make  You'r Order</h1></legend>
+       <label>Emri * </label>
+       <br>
+       <input type="text" name="text" placeholder="Emri"/>
+       <br>
+       <label>Mbiemri *</label>
+       <br>
+       <input type="text" name="text" placeholder="Mbiemri"/>
+       <br>          
+       <label>Address *</label>
+       <br>
+       <input type="text" name="text" placeholder="Address"/>
+       <br>
+       <label>Date of birthday</label>
+       <br>
+       <input type="date" data-date-inline-picker="true" />    
+       <br>  
+       <label>Nr.Tel *</label>
+       <br>
+       <input type="tel" placeholder="Nr.tel"required pattern="\d{9}" value="+383"/>  
+   </fieldset>
+</form>
+<form align="center">
+   <fieldset>
+<legend><h1>Confirm your payment</h1></legend>
+<label>Owner</label>
+<input type="text" name="text" placeholder="Owner"/>
+<label>cvv</label>
+<input type="text" name="text" placeholder="cvv" style="width: 50px; "/>
+<br>
+<label>Card Number</label>
+<br>
+<input type="text" name="text" placeholder="Card number" style="width: 250px; "/>
+<br>
+    <label for="Categories">Payment Method:</label>
+    <select name="Categories" id="Categories">
+        <option value="">Master Card</option>
+        <option value="">Visa</option>
+        <option value="">Pay Pal</option>
+    </select>
+    <br>
+    <br>
+            <button type="submit" style="width:250px ; background-color: cyan;">Order</button>  
+            <br>
+            <br>
+            <button type="reset" style="width:100px ; background-color: cyan;"> Reset</button> 
+            <br>
+</fieldset>
+</form>
+</body>
+</html>
